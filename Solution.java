@@ -177,7 +177,7 @@ class MalformedDictionaryException extends RuntimeException {
 class Solution {
 
 	/**
-	 * Returns the alphabet, ordered correctly, for the given dictionary of words.
+	 * Returns the alphabet, i.e. letters ordered according to the language, for the given dictionary of words.
 	 *
 	 * @param dict Dictionary of words.
 	 * @return Alphabet as a list of letters, ordered according to the dictionary.
@@ -187,7 +187,7 @@ class Solution {
 	 *	from a malformed dictionary.
 	 * @precondition dict is ordered lexicographically according to the given language. 
 	 */
-	static List<Character> getAlphabetOrdering(String[] dict) {
+	static List<Character> getAlphabet(String[] dict) {
 		// Tracks the column index in the table defined by the dictionary of words, where each row
 		// corresponds to a word (left-aligned) and each column is letter-wide.
 		int col = 0;
@@ -298,7 +298,7 @@ class Solution {
 		String[] dict = new String[dictBuffer.size()];
 		dictBuffer.toArray(dict);
 
-		System.out.println("Alphabet Ordering: " + getAlphabetOrdering(dict));	
+		System.out.println("Alphabet: " + getAlphabet(dict));	
 	}
 
 }
