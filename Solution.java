@@ -172,7 +172,7 @@ class MalformedDictionaryException extends RuntimeException {
 
 
 /**
- * Solution for the <i>Alphabet from Dictionary Discovery</i> problem.
+ * Solution for the <i>Alphabet Discovery from Dictionary</i> problem.
  */
 class Solution {
 
