@@ -1,10 +1,11 @@
+DICT ?= sample_dict.txt
 DEBUG ?=
 
 run: compile
 ifdef DEBUG
-	jdb Solution sample_dict.txt
+	jdb Solution $(DICT)
 else
-	java Solution sample_dict.txt
+	java Solution $(DICT)
 endif
 
 compile: clean
