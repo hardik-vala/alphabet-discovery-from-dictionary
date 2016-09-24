@@ -1,10 +1,10 @@
-# alphabet-from-dictionary-discovery
+# Alphabet Discovery from Dictionary
 
-A Java solution to the *Alphabet from Dictionary Discovery* problem.
+A Java solution to the *Alphabet Discovery from Dictionary* problem.
 
 ## Problem
 
-The *Alphabet from Dictionary Discovery* problem (AfDD for short),
+The *Alphabet Discovery from Dictionary* problem,
 
 **_Given a dictionary of words in some unknown language, ordered according to the language's alphabet, determine that alphabet, i.e. the language's letters and their order._**
 
